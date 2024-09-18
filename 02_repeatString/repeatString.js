@@ -11,9 +11,8 @@ const repeatString = function(word, multiplier) {
 
 const repeatString = function(word, multiplier) {
     let result = "";
-    if (multiplier < 0) {
-        return result = "ERROR"
-    } for (let i = 0; i < multiplier; i++) {
+    if (multiplier < 0) return result = "ERROR"
+    for (let i = 0; i < multiplier; i++) {
         result += word;
     }
     return result
